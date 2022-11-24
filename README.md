@@ -1,4 +1,7 @@
-# agrograde_task
+# Agrograde_task
+--------------------------------------------ASSIGNMENT STATUS--------------------------------------------------------
+-------------------------------------------------COMPLETE------------------------------------------------------------
+
 Day 1:
 As i have not worked on image segmentation,i looked for the process to segment the objects.
 Thought of simply applying threshold to the image(as the onion image seems to be on a black background)
@@ -27,3 +30,14 @@ I tried to find the perimeter of the image by finding the contour.
 There is some issue with the contour calculation which needs to be addressed.
 
 I have attached the code and screenshot of work done on day 1
+
+
+Day 2:
+Found all the contours of the final image
+Found the largest contour among them
+Displayed the contour and the rectangle bounding box for the contour
+Found the perimeter of the largest contour
+Found the diameter of onion by dividing the perimeter of the largest contour by 3.14(pi)
+
+Result:
+Both the tasks of the assignment are completed successfully and the final output is displayed
